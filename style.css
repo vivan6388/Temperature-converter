@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background: #314755;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    transform: translate3d(0rem,8rem,5rem);
+    font-size: 3rem;
+    color: whitesmoke;
+}
+.main-container{
+    text-align: center;
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 50px;
+    width: 80vw;
+    transform: translate3d(7rem,10rem,5rem);
+    border-radius: 15px;
+}
+.input-div{
+    display: inline-block;
+}
+.input-div input{
+    padding: 5px 10px;
+    margin: 1rem 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 22rem;
+}
+.input-div label{
+    font-size: 2.3rem;
+}
+.main-container h3{
+    font-size: 2rem;
+}
+.main-container p{
+    font-size: 1.5rem;
+}
+.copyright h2{
+    margin-top: 2rem;
+}
